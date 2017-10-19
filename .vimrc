@@ -42,8 +42,9 @@ autocmd FileType vimrc map <F12> : source ~/.vimrc <CR>
 "	tex files(*.tex)
 "
 autocmd FileType tex set smartindent
-autocmd FileType tex set tabstop=2 shiftwidth=2
+autocmd FileType tex set tabstop=2 shiftwidth=2 softtabstop=2
 autocmd FileType tex set textwidth=80
-autocmd FileType tex map <F9>   : ! xelatex % <CR>
+autocmd FileType tex map <F9>   : ! xelatex --shell-escape % <CR>
 autocmd FileType tex map <F8>   : ! evince %<.pdf & <CR> 
+
 
