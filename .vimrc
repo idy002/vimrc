@@ -55,3 +55,8 @@ autocmd FileType tex map <F8>   : ! evince %<.pdf & <CR>
 autocmd FileType haskell map <F9> : ! ghc % -o %< <CR>
 autocmd FileType haskell map <F5> : ! ./%< <CR>
 
+"
+"	python
+"
+autocmd FileType python map <F9> : ! python3 % <CR>
+autocmd FileType python map <F8> : ! python3 % <CR>
