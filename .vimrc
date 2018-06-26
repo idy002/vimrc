@@ -17,6 +17,8 @@ nmap <C-A> ggVG
 
 filetype plugin indent on
 
+source $VIMRUNTIME/ftplugin/man.vim
+
 
 autocmd FileType cpp,haskell map <F8>   : ! time ./%< < %<.in <CR>
 autocmd FileType cpp,haskell map <F5>   : ! ./%< <CR>
