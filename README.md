@@ -1,4 +1,4 @@
-# vimrc
-vimrc
-
-My .vimrc file.
+# Configs
+- .bashrc
+- .vimrc
+- .tmux.conf
